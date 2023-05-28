@@ -1,0 +1,9 @@
+[submodule "pselab-pi/themes/starter-hugo-academic"]
+	path = pselab-pi/themes/starter-hugo-academic
+	url = https://github.com/wowchemy/starter-hugo-academic
+[submodule "pselab-pi/themes/hugo-book"]
+	path = pselab-pi/themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book
+[submodule "themes/hugo-book"]
+	path = themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book
