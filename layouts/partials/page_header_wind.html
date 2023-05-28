@@ -1,0 +1,40 @@
+{{- define "main" -}}
+<!-- ssss -->
+{{ $page := . }}
+{{ $title := .Title }}
+<div class = "temp_dv">
+    <h1 style="
+        color: white;
+        font-weight: bold;
+        backdrop-filter: drop-shadow(4px 4px 10px blue);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        ">
+        {{ $title }}
+    </h1>
+    <style>
+      .temp_dv {
+        position: absolute;
+        /* top: 5.7%; */
+        top: 3.5rem;
+        left: 0%;
+        background-image: url(/img/nicholas-doherty-offshorewind-unsplash_low.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+        /* height: 17%; */
+        height: 10.5rem;
+        /* padding-bottom: 6em; */
+        /* margin-top: -2.7em; */
+        width: 100%;
+        /* text-shadow: white 0px 0px 2px; */
+        /* margin-bottom: 5%; */
+        opacity: 0.7;  
+      }
+    </style>
+  </div>
+  {{- end -}}

@@ -1,0 +1,82 @@
+{{- define "main" -}}
+<!-- ssss -->
+{{ $page := . }}
+{{ $title := .Title }}
+{{ $image := resources.Get "images/nicholas-doherty-offshorewind-unsplash_low.jpg" }}
+<!-- <img src="{{ $image.RelPermalink }}"> -->
+<!-- <h1 itemprop="name">{{ $title }}</h1> -->
+<article class="article py-5" itemscope itemtype="http://schema.org/Article">
+  <!-- <div style="
+    background-image: url({{ $image.RelPermalink }});
+    ">
+    <h1 style="
+        color: white;
+        font-weight: bold;
+        backdrop-filter: drop-shadow(4px 4px 10px blue);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        ">
+        {{ $title }}
+    </h1>
+  </div> -->
+  <!-- <div class="container split-header">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+          <img class="img-fluid w-100" src="{{ $image.RelPermalink }}" itemprop="image" alt="">
+          {{ with $.Params.image.caption }}<span
+            class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
+      </div>
+      <div class="col-lg-8">
+        <h1 itemprop="name">{{ $title }}</h1>
+        {{ with $page.Params.subtitle }}
+        <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
+        {{end}}
+  
+        {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+        {{ partial "page_links_div.html" $page }}
+      </div>
+    </div>
+  </div> -->
+<!-- ssss -->
+  <!-- {{ partial "page_header.html" . }} -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+  <div class="article-container_cust">
+
+    <div class="article-style" itemprop="articleBody">
+        {{ .Content }}        
+    </div>
+
+    <!-- {{ partial "tags.html" . }} -->
+
+    <!-- {{ if ne .Type "page" }}
+      {{ partial "page_author.html" . }}
+      {{ $related := site.RegularPages.Related . | first 5 }}
+      {{ with $related }}
+      <div class="article-widget">
+        <div class="hr-light"></div>
+        <h3>{{ i18n "related" }}</h3>
+        <ul>
+          {{ range . }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    {{ end }} -->
+
+  <!--   {{ if site.Params.section_pager }}
+    <div class="article-widget">
+      {{ partial "section_pager.html" . }}
+    </div>
+    {{ end }}
+
+    {{ partial "comments.html" . }}
+ -->
+  </div>
+</article>
+
+{{- end -}}

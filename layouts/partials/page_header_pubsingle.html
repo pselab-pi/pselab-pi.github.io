@@ -1,0 +1,37 @@
+{{ $page := . }}
+{{ $featured := (.Resources.ByType "image").GetMatch "*featured*" }}
+{{ $anchor := $page.Params.image.focal_point | default "Smart" }}
+
+{{/* Set default titles for node pages */}}
+{{ $title := .Title }}
+{{ if and (not $title) .IsNode }}
+{{ if eq .Type "post" }}
+{{ $title = i18n "posts" }}
+{{ else if eq .Type "talk" }}
+{{ $title = i18n "talks" }}
+{{ else if eq .Type "publication" }}
+{{ $title = i18n "publications" }}
+{{end}}
+{{end}}
+
+{{/* Header image */}}
+
+
+{{/* Featured image */}}
+<div class="row justify-content-center">
+    <div class="col-lg-6">
+
+      <h1 itemprop="name">{{ $title }}</h1>
+
+      {{ with $page.Params.subtitle }} 
+      <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
+      {{end}}
+
+      {{ if not .IsNode }}
+      {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+      {{ partial "page_links_div.html" $page }}
+      {{end}}
+
+    <!-- </div> -->
+  </div>
+</div>
