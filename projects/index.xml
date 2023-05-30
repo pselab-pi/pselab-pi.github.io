@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on PSE Lab.</title>
+    <link>https://pselab-pi.github.io/projects/</link>
+    <description>Recent content in Projects on PSE Lab.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 May 2023 19:30:53 +0900</lastBuildDate><atom:link href="https://pselab-pi.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023CEMS</title>
+      <link>https://pselab-pi.github.io/projects/2023cems/</link>
+      <pubDate>Tue, 09 May 2023 19:30:53 +0900</pubDate>
+      
+      <guid>https://pselab-pi.github.io/projects/2023cems/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

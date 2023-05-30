@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>2023CEMS on PSE Lab.</title>
+    <link>https://pselab-pi.github.io/projects/2023cems/</link>
+    <description>Recent content in 2023CEMS on PSE Lab.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 May 2023 19:30:53 +0900</lastBuildDate><atom:link href="https://pselab-pi.github.io/projects/2023cems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JS individual</title>
+      <link>https://pselab-pi.github.io/posts/2023-05-09_individual_jjoonstar/</link>
+      <pubDate>Tue, 09 May 2023 19:30:53 +0900</pubDate>
+      
+      <guid>https://pselab-pi.github.io/posts/2023-05-09_individual_jjoonstar/</guid>
+      <description>$$ \begin{align} &amp;amp; \min_{g_i} \quad \sum_{i\in\mathcal{I}} C_i g_i \newline &amp;amp; \text{s.t.}\quad \sum_{i\in\mathcal{I}} g_i = D \end{align} $$
+$$ \begin{align} &amp;amp;\min \quad 30 g_1 + 20 g_2 + 10 g_3 \newline &amp;amp;\text{s.t.}\quad g_1 + g_2 + g_3 = 30 \newline &amp;amp; \quad\quad \quad 0 \le g_1 \le 20 \newline &amp;amp; \quad\quad \quad 0 \le g_2 \le 20 \newline &amp;amp; \quad\quad \quad 0 \le g_3 \le 20 \end{align} $$
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 using JuMP, Ipopt, Gurobi D = 40 C = [30, 20, 10] Gmin = [0, 0, 0] Gmax = [20, 20, 20] m = Model(Ipopt.</description>
+    </item>
+    
+  </channel>
+</rss>

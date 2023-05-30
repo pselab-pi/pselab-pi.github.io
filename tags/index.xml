@@ -5,6 +5,43 @@
     <link>https://pselab-pi.github.io/tags/</link>
     <description>Recent content in Tags on PSE Lab.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://pselab-pi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 May 2023 19:30:53 +0900</lastBuildDate><atom:link href="https://pselab-pi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogging</title>
+      <link>https://pselab-pi.github.io/tags/blogging/</link>
+      <pubDate>Tue, 09 May 2023 19:30:53 +0900</pubDate>
+      
+      <guid>https://pselab-pi.github.io/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://pselab-pi.github.io/tags/development/</link>
+      <pubDate>Tue, 09 May 2023 19:30:53 +0900</pubDate>
+      
+      <guid>https://pselab-pi.github.io/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fast</title>
+      <link>https://pselab-pi.github.io/tags/fast/</link>
+      <pubDate>Tue, 09 May 2023 19:30:53 +0900</pubDate>
+      
+      <guid>https://pselab-pi.github.io/tags/fast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>https://pselab-pi.github.io/tags/go/</link>
+      <pubDate>Tue, 09 May 2023 19:30:53 +0900</pubDate>
+      
+      <guid>https://pselab-pi.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
