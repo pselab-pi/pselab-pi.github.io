@@ -1,0 +1,51 @@
+body {
+    /* font-family: 'Helvetica', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+  }
+  
+  .slider {
+    width: 60vw;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  #slider-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .index {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 1em;
+    background: rgba(0,0,0,0.6);
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+  .controls {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  #prev-btn, #next-btn {
+    background-color: rgba(255,255,255,0.5);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 2em;
+  }
+  
+  #filename {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
